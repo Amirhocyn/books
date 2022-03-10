@@ -10,4 +10,5 @@ urlpatterns = [
 
     # Local urls,
     path('', include('pages.urls')),
+    path('books/', include('books.urls'))
 ]
